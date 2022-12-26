@@ -1,0 +1,31 @@
+:root{
+    --mainclr:#00e6f6; 
+    --secclr:#2ad603;
+}
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    transition: .2s;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+html{
+    font-size: 62.5%;
+    
+}
+.header{
+    padding: 1rem 7%;
+    background-color: var(--mainclr);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: ;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+.header #logo{
+    width: 50px;
+}
